@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="others/image-slider/css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="others/image-slider/images/engine/style.css" media="screen" />
+    <script type="text/javascript" src="others/image-slider/images/engine/jquery.js"></script>
+</head>
+<body>
+<% include blogheader.html %>
+<!-- 主体部分 -->
+<div id="wowslider-container" style="margin-top: 50px;">
+    <div class="ws_images">
+        <ul>
+            <li><a href="#"><img src="images/image1.jpg" alt="123" title="" /></a></li>
+            <li><a href="#"><img src="images/image2.jpg" alt="456" title="标题1234" /></a>标题1234</li>
+            <li><a href="#"><img src="images/image3.jpg" alt="789" title="标题1234" /></a>标题1234</li>
+            <li><a href="#"><img src="images/image4.jpg" alt="012" title="" /></a></li>
+        </ul>
+    </div>
+    <div class="ws_bullets">
+        <div>
+            <a href="#"><img src="images/image1.jpg" alt="CSS3 Slider" /></a>
+            <a href="#"><img src="images/image2.jpg" alt="CSS Slideshow" /></a>
+            <a href="#"><img src="images/image3.jpg" alt="CSS Gallery" /></a>
+            <a href="#"><img src="images/image4.jpg" alt="Video Support" /></a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="others/image-slider/images/engine/wowslider.js"></script>
+<script type="text/javascript" src="others/image-slider/images/engine/script.js"></script>
+<!-- 主体部分. -->
+<% include footer.html %>
